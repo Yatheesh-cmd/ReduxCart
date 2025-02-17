@@ -15,12 +15,12 @@ function Header() {
     <Container>
       <Navbar.Brand >
         <Link to={'/'} style={{textDecoration:'none',color:'black'}}>
-        <i className="fa-solid fa-cart-shopping"></i>{ ' '} Redux cart
+        <i className="fa-solid fa-cart-shopping"></i>{ ' '} REDUX CART
         </Link>
      
       </Navbar.Brand>
       <div className='border border-2 shadow border-dark w-10' style={{borderRadius:'10px'}}>
-   <input type="search" className='form-control ' placeholder="search for product" onChange={(e)=>dispatch(searchProduct(e.target.value))} style={{color:'black',backgroundColor:'#87CEEB'}}  />
+   <input type="search" className='form-control ' placeholder="search for product" onChange={(e)=>dispatch(searchProduct(e.target.value))} style={{color:'black',backgroundColor:'gray'}}  />
       </div>
       <div>
         <Link className="btn btn-outline-warning me-3" to={'/wish'}><i class="fa-solid fa-heart text-danger"></i>Wishlist{' '}

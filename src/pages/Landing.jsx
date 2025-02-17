@@ -78,7 +78,7 @@ function Landing() {
                                         </div>
 
                                         <div className="card-footer d-flex justify-content-between p-4 pt-0 border-top-0 bg-transparent">
-                                            <button className="btn" onClick={() => dispatch(addToCart(item))}>
+                                            <button className="btn" onClick={() =>{ dispatch(addToCart(item))}}>
                                                 <i className="fa-solid fa-cart-plus text-success fa-xl"></i>
                                             </button>
                                             <button className="btn" onClick={() => handleAddToWish(item)}>
